@@ -1,16 +1,16 @@
 <template>
   <div>
     <AppHeader />
-    <HomePage />
+    <ProductPage />
     <AppFooter />
   </div>
 </template>
 
 <script>
 import AppHeader from "@/components/AppHeader.vue";
-import HomePage from "@/components/HomePage.vue";
+import ProductPage from "@/components/ProductPage.vue";
 import AppFooter from "@/components/AppFooter.vue";
 export default {
-  components: { AppHeader, HomePage, AppFooter },
+  components: { AppHeader, ProductPage, AppFooter },
 };
 </script>
